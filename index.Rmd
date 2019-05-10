@@ -1,0 +1,42 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "gds.css", "gds-fonts.css"]
+    seal: false
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: title-slide
+
+# Firstname Surname
+
+## Job title
+
+## Government Digital Service
+
+## @username
+
+---
+class: inverse
+
+.center[# This is a heading slide]
+
+---
+class: inverse
+
+.center[# This is a heading slide]
+
+---
+
+This is a text slide
+
+---
+class: title-slide
+
+# Thanks
+
+## Firstname Surname
+## @username
