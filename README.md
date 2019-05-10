@@ -8,4 +8,6 @@ They're implemented using the [{xaringan}](https://github.com/yihui/xaringan) pa
 
 What's the point? You can create presentations that meet GDS's standards and, crucially, include and run R code.
 
-Please feel free to contribute or leave an issue. Please follow the instrcutions in the CONTRIBUTING.md document.
+Current demo preview (in development): https://matt-dray.github.io/gds-xaringan/
+
+Please feel free to contribute or leave an issue. Please follow the [the code of conduct](https://github.com/matt-dray/gds-xaringan/blob/master/CODE_OF_CONDUCT.md).
