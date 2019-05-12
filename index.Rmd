@@ -19,19 +19,63 @@ class: title-slide
 
 ## @username
 
+???
+
+* Logo should go in the top left
+* Firstname Surname should be bold
+* @username is your Twitter handle
+
 ---
 class: inverse
 
 .center[# This is a heading slide]
 
+???
+
+* Text should be vertically centred
+* Keep it simple
+
 ---
+background-image: url(`r xaringan:::karl`)
+background-position: 50% 50%
 class: inverse
 
-.center[# This is a heading slide]
+.center[# This is an image heading slide]
+
+???
+
+* Text should be vertically centred
+* Keep it simple
+* Text colour can be changed to black if the contrast is too poor
 
 ---
 
 This is a text slide
+
+???
+
+* Text should be vertically centred
+* Keep it simple
+
+---
+background-image: url(`r xaringan:::karl`)
+background-position: 50% 50%
+class: inverse
+
+???
+
+* Image slides should fill the screen 100%
+
+
+---
+
+.pull-left[This is how to annotate a screenshot]
+.pull-right[![](img/screenshot.png)]
+
+???
+
+* Text on the left
+* Image on the right
 
 ---
 class: title-slide
@@ -40,3 +84,7 @@ class: title-slide
 
 ## Firstname Surname
 ## @username
+
+???
+
+* Logo should go in upper left

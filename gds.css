@@ -10,6 +10,7 @@
   background-color: #2372b6;  /* blue */
   color: #ffffff;  /* white */
   text-shadow: 0 0 0;  /* no text shadow */
+  border-bottom: 0;  /* no border */
 }
 
 /* Title slide */
