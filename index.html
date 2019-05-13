@@ -12,51 +12,61 @@
 
 class: title-slide
 
-# Firstname Surname
+.bold[Firstname Surname]
 
-## Job title
+Job title
 
-## Government Digital Service
+Government Digital Service
 
-## @username
+@username
 
 ???
 
-* Logo should go in the top left
-* Firstname Surname should be bold
-* @username is your Twitter handle
+* `seal:false` is set in the YAML to override a YAML-generated title page
+* The format of this page shouldn't be changed
+* The department's logo is normmaly shown in the upper left
+* @username is intended as your Twitter handle
 
 ---
 class: inverse
 
-.center[# This is a heading slide]
+This is a heading slide
 
 ???
 
-* Text should be vertically centred
-* Keep it simple
+* Text on this slide should be minimal
+* There's no background image
 
 ---
 class: inverse
 background-image: url("img/gds-service-design.jpg")
 background-size: cover
 
-.center[# This is an image heading slide]
+.black[This is an image heading slide]
 
 ???
 
-* Text should be vertically centred
-* Keep it simple
-* Text colour can be changed to black if the contrast is too poor
+* Text on this slide should be minimal
+* Make sure the text contrasts the background
 
 ---
 
 This is a text slide
 
+&gt; Block quote
+
+* Bullet 1
+* Bullet 2
+
+| Left       | Center     | Right      |
+| :--------- | :--------: | ---------: |
+| Content A  | A          | 1000       |
+| Content B  | B          | 0.0001    |
+
 ???
 
-* Text should be vertically centred
-* Keep it simple
+* Text on this slide should be minimal
+* Use quotes, bullets and tables to help simplify
 
 ---
 background-image: url("img/gds-nhs.jpg")
@@ -65,7 +75,8 @@ class: inverse
 
 ???
 
-* Image slides should fill the screen 100%
+* Refer to an image location with `url()` even if stored locally
+* Use `background-size: cover` to fit the image within the slide
 
 ---
 
@@ -74,20 +85,25 @@ class: inverse
 
 ???
 
-* Text on the left
-* Image on the right
+* Text on the left with `.pull-left[]` tag
+* Image on the right with `.pull-right[]` tag
 
 ---
 class: title-slide
 
-# Thanks
+.bold[Thanks!]
 
-## Firstname Surname
-## @username
+&lt;br&gt;
+
+Firstname Surname
+
+@username
 
 ???
 
-* Logo should go in upper left
+* The format of this page shouldn't be changed
+* The department's logo is normmaly shown in the upper left
+* @username is intended as your Twitter handle
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

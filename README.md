@@ -14,8 +14,8 @@ Please feel free to contribute or leave an issue. Please follow the [the code of
 
 [Keyboard shortcut](https://bookdown.org/yihui/rmarkdown/xaringan-key.html) reminders:
 
-* `c` to clone
-* `p` for presenter mode in the clone (see comments, timer and next slide)
-* `f` for fullscreen
-* `b` to blackout
-* `m` to mirror
+* <kbd>c</kbd> to clone
+* <kbd>p</kbd> for presenter mode in the clone (see comments, timer and next slide)
+* <kbd>f</kbd> for fullscreen
+* <kbd>b</kbd> to blackout
+* <kbd>m</kbd> to mirror

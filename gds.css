@@ -1,43 +1,36 @@
-/* Regular slide */
+/* Text slide (default) */
+
 .remark-slide-content {
   background-color: #ebebeb;  /* grey */
   color: #000000;  /* black */
-  border-bottom: 50px solid #2372b6;    /* blue bottom border */
+  border-bottom: 50px solid #2372b6; /* blue bottom border */
+  font-size: 40px; /* default font size */
+  padding: 0 60px 0 60px;
 }
 
-/* Heading slide ('inverted') */
+/* Heading slide (inverse) */
+
 .inverse {
   background-color: #2372b6;  /* blue */
-  color: #ffffff;  /* white */
+  color: #fff;  /* white */
   text-shadow: 0 0 0;  /* no text shadow */
   border-bottom: 0;  /* no border */
+  padding-top: 130px;  /* vertically centred (sort of) */
+  font-size: 90px;
+  font-weight: bold;
 }
 
 /* Title slide */
+
 .title-slide {
   background-color: #ebebeb;  /* grey */
   color: #000000;  /* black */
   border-bottom: 0;  /* no border */
   text-shadow: 0 0 0;  /* no text shadow */
-}
-
-/* Title slide first-level headers */
-.title-slide h1 {
-  color: #000000;
-  padding-top: 250px;
-  font-weight: bold;
+  padding-top: 300px;
   font-size: 50px;
-  text-align: left;
-  text-shadow: none;
-}
-
-/* Title slide second-level headers */
-.title-slide h2 {
-  color: #000000;
   font-weight: normal;
-  font-size: 40px;
-  text-align: left;
-  text-shadow: none;
+  line-height: 15pt;
 }
 
 /* Links */
@@ -103,6 +96,9 @@ blockquote {
 /* Tables */
 .remark-slide table {
   margin: auto;
+  width: 100%; 
+  margin-left: 0;
+  margin-right: 0;
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
 }
@@ -110,12 +106,8 @@ blockquote {
 th, td { padding: 5px; }
 .remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee }
 
-
-
-.center {
-  padding: 70px 0;
-}
-
+.black { color: #000000; }
+.bold { font-weight: bold; }
 
 /* Can leave this alone */
 @page { margin: 0; }

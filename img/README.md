@@ -15,5 +15,5 @@
 ## img/gds-service-design.jpg
 * From https://www.flickr.com/photos/gdsteam/46824081965/in/album-72157708189502835/
 * By [gdsteam on Flickr](https://www.flickr.com/photos/gdsteam/)
-* No changes made
+* Original image saturated
 * [CC-BY-2.0](https://creativecommons.org/licenses/by/2.0/)
