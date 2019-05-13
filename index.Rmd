@@ -36,9 +36,9 @@ class: inverse
 * Keep it simple
 
 ---
-background-image: url("img/gds-system.jpg")
-background-position: 50% 50%
 class: inverse
+background-image: url("img/gds-service-design.jpg")
+background-size: cover
 
 .center[# This is an image heading slide]
 
@@ -47,7 +47,6 @@ class: inverse
 * Text should be vertically centred
 * Keep it simple
 * Text colour can be changed to black if the contrast is too poor
-* Image CC-BY-2.0: https://www.flickr.com/photos/gdsteam/46712488935/in/album-72157679916771698/
 
 ---
 
@@ -59,19 +58,18 @@ This is a text slide
 * Keep it simple
 
 ---
-background-image: url("img/gds-system.jpg")
-background-position: 50% 50%
+background-image: url("img/gds-nhs.jpg")
+background-size: cover
 class: inverse
 
 ???
 
 * Image slides should fill the screen 100%
-* Image CC-BY-2.0: https://www.flickr.com/photos/gdsteam/46712488935/in/album-72157679916771698/
 
 ---
 
-.pull-left[This is how to annotate a screenshot]
-.pull-right[![](img/screenshot.png)]
+.pull-left[This is how to annotate an image]
+.pull-right[![](img/gds-blog-bold.jpg)]
 
 ???
 
