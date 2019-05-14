@@ -1,10 +1,10 @@
 # gdstheme
 
-
+Xaringan Template With Government Digital Services Theme
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
-Xaringan Template With Government Digital Services Theme
+![](img/20190514-template.gif)
 
 # Purpose
 
