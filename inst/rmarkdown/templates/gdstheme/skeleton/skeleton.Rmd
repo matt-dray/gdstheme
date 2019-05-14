@@ -8,7 +8,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      ratio: "16:9"
+      # ratio: "16:9"  # not ready yet
 ---
 class: title-slide
 

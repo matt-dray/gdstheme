@@ -1,19 +1,40 @@
 # gdstheme
 
+
+
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
-This repo contains CSS files and an R Markdown template for mimicking GDS's Google Slides presentation template.
+Xaringan Template With Government Digital Services Theme
 
-They're implemented using the [{xaringan}](https://github.com/yihui/xaringan) package by [Yihui Xie](https://yihui.name/), which provides an implementation of [remark.js](https://github.com/gnab/remark) through R Markdown.
+# Purpose
 
-What's the point? You can create presentations that meet GDS's standards and, crucially, include and run R code.
+This package provides a template that mimics the internal style of slides at [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service) (GDS), part of the UK's [Cabinet Office](https://www.gov.uk/government/organisations/cabinet-office). 
 
-Please feel free to contribute or leave an issue. Please follow the the code of conduct.
+You can use it to integrate easily the outputs of R code and make your slides reproducible.
 
-[Keyboard shortcut](https://bookdown.org/yihui/rmarkdown/xaringan-key.html) reminders:
+The template requires the [{xaringan}](https://github.com/yihui/xaringan) package by [Yihui Xie](https://yihui.name/), which provides an implementation of [remark.js](https://github.com/gnab/remark) through R Markdown.
 
-* <kbd>c</kbd> to clone
-* <kbd>p</kbd> for presenter mode in the clone (see comments, timer and next slide)
-* <kbd>f</kbd> for fullscreen
-* <kbd>b</kbd> to blackout
-* <kbd>m</kbd> to mirror
+# Install
+
+```{r}
+# install.packages("remotes")
+remotes::install_github("matt-dray/gdstheme")
+```
+
+To open the template in RStudio, go to `File` > `New File` > `RMarkdown...` > `From Template` > `Slide template for GDS`
+
+![](img/new-rmd.png)
+
+You can also use the `draft()` function from the {rmarkdown} package:
+
+```{r}
+rmarkdown::draft(
+  file = "doc_name.Rmd",
+  template = "gdstheme",
+  package = "gdstheme"
+)
+```
+
+# Contribute
+
+Please feel free [leave an issue](https://github.com/matt-dray/gdstheme/issues). Please follow [the code of conduct](https://github.com/matt-dray/gdstheme/blob/master/CODE_OF_CONDUCT.md).
