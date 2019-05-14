@@ -42,6 +42,12 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
+# Template skeleton files
+
+libs
+skeleton.html
+skeleton_files
+
 ### R.Bookdown Stack ###
 # R package: bookdown caching files
 /*_files/

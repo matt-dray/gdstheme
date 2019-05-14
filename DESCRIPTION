@@ -1,0 +1,22 @@
+Package: gdstheme
+Title: Xaringan Template With Government Digital Services Theme
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Matt",
+           family = "Dray",
+           role = c("aut", "cre"),
+           email = "mwdray@gmail.com")
+Description: A template and CSS files for reproducing the presentation style of
+    Government Digital Services (GDS), part of the UK Government's Cabinet
+    Office. GDS's templates are available internally as Google Slides only. This
+    package lets you achieve that style but also use the power of RMarkdown.
+License: MIT + file LICENSE
+URL: https://github.com/matt-dray/gdstheme
+BugReports: https://github.com/matt-dray/gdstheme/issues
+Encoding: UTF-8
+LazyData: true
+Imports:
+    xaringan
+Remotes:
+    yihui/xaringan
+RoxygenNote: 6.1.1
