@@ -1,45 +1,62 @@
+/************
+
+gdstheme
+Styles for Xaringan slides with Government Digital Services theme
+https://github.com/matt-dray/gdstheme
+May 2019
+
+/************
+
 /* Text slide (default) */
 
 .remark-slide-content {
-  background-color: #ebebeb;  /* grey */
-  color: #000000;  /* black */
-  border-bottom: 50px solid #2372b6; /* blue bottom border */
-  font-size: 40px; /* default font size */
-  padding: 0 60px 0 60px;
+  background-color: #ebebeb;          /* grey background */
+  color: #000;                        /* black text */
+  border-bottom: 50px solid #2372b6;  /* blue bottom border */
+  font-size: 40px;                    /* regular text size */
+  padding: 0 60px 0 60px;             /* space on top, left, right, bottom*/
 }
 
 /* Heading slide (inverse) */
 
 .inverse {
-  background-color: #2372b6;  /* blue */
-  color: #fff;  /* white */
-  text-shadow: 0 0 0;  /* no text shadow */
-  border-bottom: 0;  /* no border */
-  padding-top: 130px;  /* vertically centred (sort of) */
-  font-size: 90px;
-  font-weight: bold;
+  background-color: #2372b6;  /* blue background */
+  color: #fff;                /* white text*/
+  text-shadow: 0 0 0;         /* no text shadow */
+  border-bottom: 0;           /* no border */
+  padding-top: 130px;         /* vertically centred (sort of) */
+  font-size: 90px;            /* large text size */
+  font-weight: bold;          /* headings are bold */
 }
 
 /* Title slide */
 
 .title-slide {
-  background-color: #ebebeb;  /* grey */
-  color: #000000;  /* black */
-  border-bottom: 0;  /* no border */
-  text-shadow: 0 0 0;  /* no text shadow */
-  padding-top: 300px;
-  font-size: 50px;
-  font-weight: normal;
-  line-height: 15pt;
+  background-color: #ebebeb;  /* grey background */
+  color: #000;                /* black text */
+  border-bottom: 0;           /* no border */
+  text-shadow: 0 0 0;         /* no text shadow */
+  padding-top: 300px;         /* forces text to lower left */
+  font-size: 50px;            /* intermediate text size */
+  font-weight: normal;        /* not bold */
+  line-height: 15pt;          /* separation between lines of text */
 }
 
-/* Links */
+/* Hyperlinks */
+
 a, a > code {
-  color: #0009FF;
-  text-decoration: underline;
+  color: #0009FF;              /* hyperlinks are blue */
+  text-decoration: underline;  /* hyperlinks are underlined */
 }
 
-/* Footnote */
+/* Slide numbers */
+
+.remark-slide-number {
+  display: none;  /* remove them */
+}
+
+/* Footnotes */
+
 .footnote {
   position: absolute;
   bottom: 3em;
@@ -47,53 +64,58 @@ a, a > code {
   font-size: 90%;
 }
 
-/* Remove slide numbers */
-.remark-slide-number {
-  display: none;
-}
-
 /* Code highlighting */
+
 .remark-code-line-highlighted { background-color: #ffff88; }
 
 /* Two-column layout */
+
 .left-column {
   color: #777;
   width: 20%;
   height: 92%;
   float: left;
 }
+
 .left-column h2:last-of-type, .left-column h3:last-child {
   color: #000;
 }
+
 .right-column {
   width: 75%;
   float: right;
   padding-top: 1em;
 }
+
 .pull-left {
   float: left;
   width: 47%;
 }
+
 .pull-right {
   float: right;
   width: 47%;
 }
+
 .pull-right ~ * {
   clear: both;
 }
 
 /* Media insertion*/
+
 img, video, iframe {
   max-width: 100%;
 }
 
 /* Blockquote */
+
 blockquote {
   border-left: solid 5px lightgray;
   padding-left: 1em;
 }
 
 /* Tables */
+
 .remark-slide table {
   margin: auto;
   width: 100%; 
@@ -102,14 +124,22 @@ blockquote {
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
 }
-.remark-slide table thead th { border-bottom: 1px solid #ddd; }
-th, td { padding: 5px; }
-.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee }
 
-.black { color: #000000; }
-.bold { font-weight: bold; }
+.remark-slide table thead th { border-bottom: 1px solid #ddd; }
+
+th, td { padding: 5px; }
+
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) {
+  background: #eee
+}
+
+/* Extra tags */
+
+.black { color: #000; }       /* black text intended for heading contrast */
+.bold { font-weight: bold; }  /* bold for speaker's name on first/last slides */
 
 /* Can leave this alone */
+
 @page { margin: 0; }
 @media print {
   .remark-slide-scaler {

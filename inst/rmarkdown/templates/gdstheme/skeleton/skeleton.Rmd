@@ -55,13 +55,18 @@ This is a text slide
 
 > Block quote
 
-* Bullet 1
-* Bullet 2
+* Bullet
+  * Indented bullet
+
+```{r eval=FALSE}
+data <- read_csv(df) %>% 
+  select(column)
+```
 
 | Left       | Center     | Right      |
 | :--------- | :--------: | ---------: |
 | Content A  | A          | 1000       |
-| Content B  | B          | 0.0001    |
+| Content B  | B          | 0.0001     |
 
 ???
 
