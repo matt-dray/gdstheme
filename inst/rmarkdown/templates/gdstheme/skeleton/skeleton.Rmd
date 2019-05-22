@@ -27,7 +27,7 @@ Government Digital Service
 * @username is intended as your Twitter handle
 
 ---
-class: inverse, middle
+class: heading-slide, middle
 
 This is a heading slide
 
@@ -37,7 +37,7 @@ This is a heading slide
 * There's no background image
 
 ---
-class: inverse, middle
+class: heading-slide, middle
 background-image: url("img/gds-service-design.jpg")
 background-size: cover
 
@@ -87,9 +87,9 @@ hist(
 * If you want your output full screen, use a heading slide with no overlaid text
 
 ---
+class: heading-slide
 background-image: url("img/gds-nhs.jpg")
 background-size: cover
-class: inverse
 
 ???
 

@@ -19,12 +19,11 @@ May 2019
 
 /* Heading slide (inverse) */
 
-.inverse {
+.heading-slide {
   background-color: #2372b6;  /* blue background */
   color: #fff;                /* white text*/
   text-shadow: 0 0 0;         /* no text shadow */
   border-bottom: 0;           /* no border */
-
   font-size: 90px;            /* large text size */
   font-weight: bold;          /* headings are bold */
 }
