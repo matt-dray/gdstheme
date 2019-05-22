@@ -1,0 +1,23 @@
+/************
+
+gdstheme
+Styles for Xaringan slides with Government Digital Services theme
+https://github.com/matt-dray/gdstheme
+May 2019
+
+/************
+
+/* Import from Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+/* Sans serif body text */
+
+body { font-family: sans-serif, 'Roboto'; }
+
+/* Monospace script */ 
+
+.remark-code, .remark-inline-code {
+  font-family: 'Fira Mono', monospace;
+}
