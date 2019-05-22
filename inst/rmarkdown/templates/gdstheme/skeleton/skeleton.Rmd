@@ -58,11 +58,6 @@ This is a text slide
 * Bullet
   * Indented bullet
 
-```{r eval=FALSE}
-data <- read_csv(df) %>% 
-  select(column)
-```
-
 | Left       | Center     | Right      |
 | :--------- | :--------: | ---------: |
 | Content A  | A          | 1000       |
@@ -72,6 +67,24 @@ data <- read_csv(df) %>%
 
 * Text on this slide should be minimal
 * Use quotes, bullets and tables to help simplify
+
+---
+
+```{r histogram, fig.width=12, fig.height=6, dpi=300}
+hist(
+  iris$Sepal.Length,
+  main = "Histogram of sepal length",
+  xlab = "Sepal length"  #<<
+)
+```
+
+???
+
+* Code goes on a text slide
+* Highlight lines with "#<<"
+* Set image output parameters in the chunk settings (width, dots per square inch, etc)
+* You can use .pull-right[] to arrange code/plots side by side
+* If you want your output full screen, use a heading slide with no overlaid text
 
 ---
 background-image: url("img/gds-nhs.jpg")
