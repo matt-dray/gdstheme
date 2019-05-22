@@ -8,11 +8,10 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      # ratio: "16:9"  # not ready yet
 ---
-class: title-slide
+class: title-slide, bottom
 
-.bold[Firstname Surname]
+.bold[Firstname Lastname]
 
 Job title
 
@@ -28,7 +27,7 @@ Government Digital Service
 * @username is intended as your Twitter handle
 
 ---
-class: inverse
+class: inverse, middle
 
 This is a heading slide
 
@@ -38,7 +37,7 @@ This is a heading slide
 * There's no background image
 
 ---
-class: inverse
+class: inverse, middle
 background-image: url("img/gds-service-design.jpg")
 background-size: cover
 
@@ -58,10 +57,11 @@ This is a text slide
 * Bullet
   * Indented bullet
 
+Inline code: `foo <- bar(baz)`
+
 | Left       | Center     | Right      |
 | :--------- | :--------: | ---------: |
 | Content A  | A          | 1000       |
-| Content B  | B          | 0.0001     |
 
 ???
 
@@ -70,11 +70,11 @@ This is a text slide
 
 ---
 
-```{r histogram, fig.width=12, fig.height=6, dpi=300}
+```{r histogram, fig.width=12, fig.height=5.5, dpi=300}
 hist(
   iris$Sepal.Length,
   main = "Histogram of sepal length",
-  xlab = "Sepal length"  #<<
+  xlab = "Sepal length"  # highlighted line #<<
 )
 ```
 
@@ -107,13 +107,13 @@ class: inverse
 * Image on the right with `.pull-right[]` tag
 
 ---
-class: title-slide
+class: title-slide, bottom
 
 .bold[Thanks!]
 
 <br>
 
-Firstname Surname
+Firstname Lastname
 
 @username
 

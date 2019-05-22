@@ -24,7 +24,7 @@ May 2019
   color: #fff;                /* white text*/
   text-shadow: 0 0 0;         /* no text shadow */
   border-bottom: 0;           /* no border */
-  padding-top: 130px;         /* vertically centred (sort of) */
+
   font-size: 90px;            /* large text size */
   font-weight: bold;          /* headings are bold */
 }
@@ -36,10 +36,26 @@ May 2019
   color: #000;                /* black text */
   border-bottom: 0;           /* no border */
   text-shadow: 0 0 0;         /* no text shadow */
-  padding-top: 300px;         /* forces text to lower left */
+
   font-size: 50px;            /* intermediate text size */
   font-weight: normal;        /* not bold */
   line-height: 15pt;          /* separation between lines of text */
+}
+
+/* Code blocks */
+
+.remark-code {
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+/* Inline code */
+
+.remark-inline-code{
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 1px;
 }
 
 /* Hyperlinks */
