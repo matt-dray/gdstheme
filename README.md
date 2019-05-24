@@ -1,10 +1,10 @@
 # gdstheme
 
-Xaringan Template With Government Digital Services Theme
-
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
-![](img/20190514-template.gif)
+A Xaringan template with a Government Digital Services theme
+
+Live template example: https://matt-dray.github.io/gdstheme/
 
 # Purpose
 
