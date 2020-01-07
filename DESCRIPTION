@@ -8,15 +8,16 @@ Authors@R:
            email = "mwdray@gmail.com")
 Description: A template and CSS files for reproducing the presentation style of
     Government Digital Services (GDS), part of the UK Government's Cabinet
-    Office. GDS's templates are available internally as Google Slides only. This
-    package lets you achieve that style but also use the power of RMarkdown.
+    Office, in {xaringan}. GDS's templates are available internally as Google
+    Slides only. This package lets you achieve that style while also being able
+    to take advantage of RMarkdown. This package is not affiliated with GDS.
 License: MIT + file LICENSE
 URL: https://github.com/matt-dray/gdstheme
 BugReports: https://github.com/matt-dray/gdstheme/issues
 Encoding: UTF-8
 LazyData: true
 Imports:
-    xaringan
+    xaringan (>= 0.13.2)
 Remotes:
     yihui/xaringan
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
