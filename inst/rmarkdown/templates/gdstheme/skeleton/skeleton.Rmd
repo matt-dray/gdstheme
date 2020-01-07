@@ -1,4 +1,5 @@
 ---
+pagetitle: "Example title"
 output:
   xaringan::moon_reader:
     css: ["default", "gds.css", "gds-fonts.css"]
